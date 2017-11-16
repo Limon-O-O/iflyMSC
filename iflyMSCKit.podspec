@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'Source/iflyMSC.framework'
 
-  s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/iflyMSC/**\"" }
+  s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/iflyMSCKit/**\"" }
 
   s.frameworks = 'CoreLocation', 'CoreTelephony', 'AVFoundation', 'Contacts', 'AddressBook', 'AudioToolbox', 'SystemConfiguration', 'QuartzCore', 'CoreGraphics'
   s.libraries = 'z','c++'
