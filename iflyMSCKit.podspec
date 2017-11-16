@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "iflyMSCKit"
-  s.version      = "1.164"
+  s.version      = "1.1641"
   s.summary      = "科大讯飞_语音听写"
   s.description  = <<-DESC
                     科大讯飞 iOS 语音听写 SDK
