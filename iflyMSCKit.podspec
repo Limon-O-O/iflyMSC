@@ -56,6 +56,10 @@ Pod::Spec.new do |s|
       header "IFlyPcmRecorder.h"
       header "IFlyVoiceWakeuper.h"
       header "IFlyVoiceWakeuperDelegate.h"
+      header "IFlyIdentityResult.h"
+      header "IFlyIdentityVerifier.h"
+      header "IFlyIdentityVerifierDelegate.h"
+      header "IFlyVerifierUtil.h"
 
       export *
 
